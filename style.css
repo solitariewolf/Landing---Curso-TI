@@ -120,4 +120,108 @@ html{
     height: auto;
     background-color: black;
     color: white;
+    display: inline-block;
 }
+
+.box-comprar{
+    width: 500px;
+    height: auto;
+    background: linear-gradient(180deg, rgba(25,218,250,1) 0%, rgba(17,48,199,1) 33%, rgba(18,35,101,1) 82%);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box-comprar h1, h2{
+    text-align: center;
+}
+
+.box-comprar p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.box-comprar h3{
+    text-align: center;
+    margin: 8px;
+    font-size: 38px;
+    color: red;
+    background-color: white;
+}
+
+.espaco-botao{
+    background-color: black;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 9px;
+    border-top: 1px rgb(216, 26, 241) solid;
+    border-left: 1px rgb(210, 16, 228) solid;
+    border-right: 1px rgb(210, 16, 228) solid;
+    font-size: 19px;
+    font-weight: bold;
+    background: linear-gradient(180deg, rgba(250,25,233,1) 0%, rgba(169,17,199,1) 33%, rgba(55,18,101,1) 82%);
+    cursor: pointer;
+    color: white;
+    margin: 9px;
+}
+
+button:hover{
+    background: linear-gradient(180deg, rgb(43, 20, 255) 0%, rgb(8, 57, 102) 33%, rgb(10, 5, 27) 82%);
+}
+
+.box-comprar img{
+    display: inline-block;
+    height: 25px;
+    margin-top: 19px;
+}
+
+.img-seguranca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-seguranca{
+    display: flex;
+    margin: 5px;
+}
+
+.container-seguranca img{
+    height: 45px;
+}
+
+.container-seguranca p{
+    margin-top: 35px;
+    font-size: 12px;
+}
+
+.dias-garantia img{
+    height: 250px;
+}
+
+/*responsividade*/
+
+@media screen and (max-width: 425px) {
+    .sobre span{
+    width: auto;
+    }
+
+    .img-linguagens img{
+    height: 30px;
+    }
+
+    .mosaico-container{
+        width: auto;
+    }
+    .box-comprar{
+        width: auto;
+    }
+}
+
